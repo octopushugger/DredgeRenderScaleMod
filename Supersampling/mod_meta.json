@@ -1,7 +1,7 @@
 {
 	"Author": "OctopusHugger",
-	"Name": "Supersampling",
-	"ModGUID": "OctopusHugger.Supersampling",
+	"Name": "RenderScale",
+	"ModGUID": "OctopusHugger.RenderScale",
 	"Version": "0.1.0",
 	"ModAssembly": "Supersampling.dll",
 	"MinWinchVersion": "0.6.1",

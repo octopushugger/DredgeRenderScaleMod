@@ -2,9 +2,9 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-public static class SupersamplingBuildBundle
+public static class RenderScaleBuildBundle
 {
-    [MenuItem("Supersampling/Build AssetBundle")]
+    [MenuItem("RenderScale/Build AssetBundle")]
     public static void Build()
     {
         var outDir = Path.Combine(Application.dataPath, "../../Build");

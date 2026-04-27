@@ -1,4 +1,4 @@
-# Building the Supersampling AssetBundle
+# Building the RenderScale AssetBundle
 
 The mod ships an HLSL shader (`AreaDownsample.shader`) that has to be precompiled
 by Unity Editor into an AssetBundle, since Unity standalone cannot compile shaders
@@ -13,7 +13,7 @@ at runtime.
 5. In the Project window, select `AreaDownsample.shader`. In the Inspector at
    the bottom there's an "AssetBundle" dropdown — set it to `supersampling`
    (leave Variant blank).
-6. Menu bar: **Supersampling → Build AssetBundle**.
+6. Menu bar: **RenderScale → Build AssetBundle**.
 7. The bundle file `supersampling` will appear in `BuiltBundles/`.
 
 ## Installing into the mod

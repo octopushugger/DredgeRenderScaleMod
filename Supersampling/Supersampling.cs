@@ -12,7 +12,7 @@ namespace Supersampling
 {
 	public class Supersampling : MonoBehaviour
 	{
-		internal const string MOD_GUID = "OctopusHugger.Supersampling";
+		internal const string MOD_GUID = "OctopusHugger.RenderScale";
 		internal const string BUNDLE_NAME = "supersampling";
 		internal const string SHADER_NAME = "Hidden/Supersampling/AreaDownsample";
 
@@ -31,7 +31,7 @@ namespace Supersampling
 			TryPatchFinalBlit();
 			DownsamplePatch.Initialize();
 			ApplyRenderScale();
-			WinchCore.Log.Info($"Supersampling loaded — scale={RenderScale}x, algorithm={Algorithm}, shader={(DownsampleMaterial != null ? "OK" : "MISSING (bilinear fallback)")}");
+			WinchCore.Log.Info($"RenderScale loaded — scale={RenderScale}x, algorithm={Algorithm}, shader={(DownsampleMaterial != null ? "OK" : "MISSING (bilinear fallback)")}");
 		}
 
 		private void LoadConfig()
