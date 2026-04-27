@@ -1,8 +1,8 @@
 {
 	"Author": "OctopusHugger",
-	"Name": "Winch Mod Template",
+	"Name": "Supersampling",
 	"ModGUID": "OctopusHugger.Supersampling",
-	"Version": "0.0.1",
+	"Version": "0.1.0",
 	"ModAssembly": "Supersampling.dll",
 	"MinWinchVersion": "0.6.1",
 	"Entrypoint": "Supersampling.Loader/Initialize"

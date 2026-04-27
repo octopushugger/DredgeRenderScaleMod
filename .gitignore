@@ -397,3 +397,26 @@ FodyWeavers.xsd
 *.sln.iml
 
 .idea
+
+# -----------------------------------------------------------------------
+# Unity
+# -----------------------------------------------------------------------
+
+# Unity-generated directories that are rebuilt automatically when you
+# open the project — never commit these.
+BundleProject/UnityProject/Library/
+BundleProject/UnityProject/Temp/
+BundleProject/UnityProject/Logs/
+BundleProject/UnityProject/UserSettings/
+
+# AssetBundle build output.
+# The canonical runtime copy lives in Supersampling/Assets/ and IS committed.
+BundleProject/Build/
+
+# Unity crash reports
+BundleProject/UnityProject/Crashes/
+
+# The NuGet **/[Pp]ackages/* rule above accidentally catches Unity's
+# Packages/manifest.json and packages-lock.json — un-ignore them.
+!BundleProject/UnityProject/Packages/manifest.json
+!BundleProject/UnityProject/Packages/packages-lock.json
