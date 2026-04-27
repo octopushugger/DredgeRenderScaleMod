@@ -19,7 +19,7 @@ Mod to render the game at different internal resolutions without touching the HU
 
 Performance on a 3090 with in-game res set to 2560x1440 and otherwise max graphics:
 
-- 0.5 Catrom ~450fps (memory bottlenecked? are you X3D folks getting higher?)
+- 0.5 Catrom ~450fps (memory bottlenecked?)
 
 - Mod disabled ~450fps
 
