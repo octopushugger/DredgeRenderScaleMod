@@ -11,6 +11,8 @@ Mod to render the game at different internal resolutions without touching the HU
 
 - Defaults: 2.0 with Catrom
 
-- Most likely not compatible with other mods that also modify graphics like the VR mod. Untested though.
+- Most likely not compatible with other mods that also modify graphics, like the VR mod. Untested though.
 
 - Image comparison between with and without mod here: https://slow.pics/c/42TB2OOr
+
+- Intended use case is supersampling but if you have a super potato gpu you could in theory use this to render lower than native resolution to increase fps while keeping the HUD sharp. 
